@@ -1,0 +1,53 @@
+#mental{
+    width: 1320px;
+    height:700px;
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+    /* z-index: -1000; */
+}
+#core{
+    position: relative;
+    width: 6600px;
+    animation : slideside 25s infinite;
+    z-index: 10;
+}
+#core img{
+float: left;
+}
+@keyframes slideside{
+    0% {
+        left: 0px;
+    }
+    16%{
+        left: 0px;
+    }
+    20%{
+        left: -1320px;
+    }
+    36%{
+        left: -1320px;
+    }
+    40%{
+        left: -2640px;
+    }
+    56%{
+        left: -2640px;
+    }
+    60%{
+        left: -3960px;
+    }
+    76%{
+        left: -3960px;
+    }
+    80%{
+        left: -5280px;
+    }
+    96%{
+        left: -5280px;
+    }
+    100%{
+        left: -6600px;
+    }
+    
+}

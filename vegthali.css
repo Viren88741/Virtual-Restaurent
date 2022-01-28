@@ -1,0 +1,61 @@
+.vegthali{
+    text-align: center;
+    width: 1350px;
+    margin: 20px 0 20px 0px ;
+}
+.vtpics{
+    margin: 20px 0 20px 0;
+    /* border: 1px solid blue; */
+    width: 1350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.vtpic{
+    margin: 10px;
+    float: left;
+    width: 350px;
+    height: 300px;
+    /* border: 1px solid red; */
+}
+.vtpic img{
+    width: 100%;
+    height: 220px;
+}
+.checked{
+    color: goldenrod;
+}
+.vtpicrate{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px solid gray;
+}
+#vtpic:hover{
+    transform: scale(1.05);
+}
+.btn a{
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+div b {
+    color: rgb(12, 151, 12);
+}
+div .footsec b{
+    color: rgba(1, 1, 1, 1);
+}
+.btn input{
+    margin-top: 10px;
+    width: 150px;
+    border-radius: 40px;
+    background-color: rgb(233, 218, 7);
+}
+.btn input:hover{
+    transform: scale(1.02);
+    background-color: rgb(4, 165, 4);
+    color: whitesmoke;
+}

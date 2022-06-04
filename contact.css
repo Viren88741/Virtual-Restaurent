@@ -34,6 +34,7 @@
     width: 630px;
     height: 480px;
     margin-left: 5px;
+    margin-top: -20px;
     border: 0px solid rgb(18, 109, 6);
 }
 div form label{

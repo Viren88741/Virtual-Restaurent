@@ -1,19 +1,21 @@
 #mental{
     width: 1320px;
     height:700px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 7.5%;
+    margin-top: 1%;
     overflow: hidden;
     /* z-index: -1000; */
 }
 #core{
     position: relative;
-    width: 6600px;
+    width: 500%;
     animation : slideside 25s infinite;
     z-index: 10;
 }
 #core img{
-float: left;
+    border-radius: 20px;
+    overflow: hidden;
+    float: left;
 }
 @keyframes slideside{
     0% {
@@ -23,31 +25,31 @@ float: left;
         left: 0px;
     }
     20%{
-        left: -1320px;
+        left: -100%;
     }
     36%{
-        left: -1320px;
+        left: -100%;
     }
     40%{
-        left: -2640px;
+        left: -200%;
     }
     56%{
-        left: -2640px;
+        left: -200%;
     }
     60%{
-        left: -3960px;
+        left: -300%;
     }
     76%{
-        left: -3960px;
+        left: -300%;
     }
     80%{
-        left: -5280px;
+        left: -400%;
     }
     96%{
-        left: -5280px;
+        left: -400%;
     }
     100%{
-        left: -6600px;
+        left: 0;
     }
     
 }

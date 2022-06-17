@@ -1,12 +1,12 @@
 .nonvegthali{
     text-align: center;
-    width: 1350px;
+    width: 100%;
     margin: 20px 0 20px 0px ;
 }
 .nvtpics{
     margin: 20px 0 20px 0;
     /* border: 1px solid blue; */
-    width: 1350px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,6 +21,7 @@
 .nvtpic img{
     width: 100%;
     height: 220px;
+    border-radius: 20px;
 }
 .checked{
     color: goldenrod;
@@ -52,10 +53,13 @@ div .footsec b{
     margin-top: 10px;
     width: 150px;
     border-radius: 40px;
-    background-color: rgb(233, 218, 7);
+    background: #CAC531;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 .btn input:hover{
     transform: scale(1.02);
     background-color: rgb(4, 165, 4);
-    color: whitesmoke;
+    color: rgb(12, 1, 116);
 }

@@ -4,15 +4,14 @@
 }
 #one ul{
     list-style: none;
-    margin-left: 14px;
-    margin-right: -2px;
+   width: 100%;
     position: fixed;
     z-index: 20;
 }
 #one ul li{
     background-color: #049e9e;
     /* border: 1px  solid black; */
-    width: 264px;
+    width: 20%;
     height: 50px;
     text-align: center;
     line-height: 35px;
@@ -22,6 +21,7 @@
 #one ul li a{
     margin: 0px;
     padding: 0px;
+    background-color: #049e9e;
     text-decoration: none;
     text-align: none;
     font-size: 20px;
@@ -37,7 +37,7 @@
 }
 #one ul :hover{
     color: rgb(2, 2, 2);
-    font-size: 22px;
+    font-size: 25px;
 }
 #one ul li:hover ul{
     display: block;
